@@ -1,0 +1,53 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@gmail.com",
+        "age": 34,
+        "recipeId": "1"
+      },
+      {
+        "id": "2",
+        "firstName": "Mark",
+        "lastName": "Williams",
+        "email": "mark@gmail.com",
+        "age": 33,
+        "recipeId": "1"
+      },
+      {
+        "id": "3",
+        "firstName": "Sara",
+        "lastName": "Smith",
+        "email": "sara@gmail.com",
+        "age": 23,
+        "recipeId": "2"
+      },
+      {
+        "firstName": "Brad",
+        "lastName": "Traversy",
+        "age": 35,
+        "email": "test@test.com",
+        "recipeId": "3",
+        "id": "B1Ww3BIS-"
+      }
+    ],
+    "recipes": [
+      {
+        "id": "1",
+        "name": "Salsa",
+        "description": "Delightfully fresh and with a kick of heat, you can't beat homemade spicy salsa. Usually featuring a blend of vibrant ingredients like tomatoes, onion, cilantro, and plenty of pepper varieties, you'll have a hard time ever going back to jarred salsa after the first bite. Whip up a batch for your next Taco Tuesday, or keep a bowl handy for snacking with chips during a movie marathon. "
+      },
+      {
+        "id": "2",
+        "name": "Strawberry-Rhubarb Buckle",
+        "description": "Growing up in Wisconsin, we had a patch of rhubarb growing in our backyard, and I loved all of the delicious desserts my Mom would make when it was in season. This recipe is my spin on her strawberry-rhubarb cake. Serve warm with a scoop of vanilla ice cream or a dollop of sweetened whipped cream, if desired."
+      },
+      {
+        "id": "3",
+        "name": "Peanut Butter Pie I",
+        "description": "This pie has a chocolate crumb crust and a creamy peanut butter filling. Garnish pie with grated chocolate or chocolate cookie crumbs, if desired."
+      }
+    ]
+  }
