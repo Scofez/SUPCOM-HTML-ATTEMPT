@@ -11,7 +11,9 @@
 	<script src="scripts/taskView.js"></script>
 	<script src="scripts/listPresenter.js"></script>
 	<script src="scripts/listView.js"></script>
+	<script src="scripts/imgservice.js"></script>
 	
+
 </head>
 <body>
 		<nav class="nav">
@@ -42,7 +44,7 @@
 					<i class = "fas fa-times"></i>
 				</span>
 				<h2 class = "title">Recipes</h2>
-				<img src = "images/cookies.jpg" alt = "" style="height: 350px; width:500px; margin-left: 30%;">
+				<img id="imgcookie1" alt = "" style="height: 350px; width:500px; margin-left: 30%;">
 				<h2>Preparation</h2>
 				<p>
 					In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.
@@ -55,7 +57,7 @@
 					Cool completely before serving.
 					Enjoy!</p>
 				
-				<img src = "images/food.jpg" alt = "" style="height: 350px; width:500px; margin-left: 30%;">
+				<img id="imgfood" alt = "" style="height: 350px; width:500px; margin-left: 30%;">
 				<h2>Preparation</h2>
 				<p>Step 1 :
 					In a bowl, mix ground beef, egg, onion, bread crumbs, Worcestershire, garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper until well blended. Divide mixture into four equal portions and shape each into a patty about 4 inches wide.
@@ -76,7 +78,7 @@
 					<i class = "fas fa-times"></i>
 				</span>
 				<h2 class = "title">About</h2>
-				<img src = "images/cookies.jpg" style="height: 350px; width:500px; margin-left: 30%;">
+				<img id="imgcookie2" style="height: 350px; width:500px; margin-left: 30%;">
 				
 				<h3>Find the Best Recipes </h3>
 				<p> Not everybody loves cooking, but once in a blue moon, we always get the urge to jump into the kitchen and whip up something delicious. However, it is hard to keep your culinary game fresh if you lack new ideas and always prepare the same old dish that you inherited from your mum. This is why you need to check out various recipe websites for inspiration</p>
@@ -84,7 +86,9 @@
 			</section>
 		
 	
-	
+			<script>
+				imageservice();
+			</script>
 	<script src="scripts/script.js"></script>
 	
 </body>
