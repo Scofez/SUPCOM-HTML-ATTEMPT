@@ -28,8 +28,12 @@ GET ALL USERS OF A RECIPE
 http://localhost:3000/recipes/1/users
 
 
-Les dossiers ont été réorganisés, et un nouveau dossier nommé "Tutorial" a été créé 
+- Les dossiers ont été réorganisés, et un nouveau dossier nommé "Tutorial" a été créé 
 contenant une version de travail du tutoriel (avec des captures d'écran).
 Nous travaillons toujours sur les services pour notre propre projet.
 
-On a ajouté un serveur qui consomme les images du Back-End
+@Third Commit
+- On a ajouté un serveur qui consomme les images du Back-End
+
+@Forth Commit
+- L'ajout d'un Websocket
